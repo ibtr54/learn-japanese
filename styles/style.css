@@ -1,0 +1,113 @@
+@font-face{
+    font-family: Nunito;
+    src: url(./Nunito-Medium.ttf);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.headertext1{
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.headertext2{
+    margin: 0;
+    padding-top: 0.2rem;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.titlehead{
+    font-family: Nunito;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.tabtext{
+    font-family: Nunito;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.divider{
+    font-weight: bolder;
+    font-size: 1.32rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    color: #ff205f;
+}
+
+.H1NormalText{
+    font-family: Nunito;
+    font-size: 1.7rem;
+}
+
+p{    
+    font-family: Nunito;
+    color: white;
+}
+
+.bcontainer{
+    display: flex;
+}
+
+.leftside{
+    width: 47%;
+    padding-left: 2%;
+    margin-right: 10px;
+}
+
+.modernfont{
+    font-family: Nunito;
+    color: white;
+}
+
+.backgroundred{
+    border-style: solid;
+    background-image: url(../images/color.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.rightside{
+width: 53%;
+}
+
+body{
+    background-image: url(../images/back.jpg);
+}
+
+.textbody{
+    display: inline;
+    background-color: black;
+}
+
+.TBArea{
+    display: flex;
+    justify-content: left;
+}
+
+.feedback{
+    margin-left: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
